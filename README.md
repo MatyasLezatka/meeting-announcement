@@ -44,13 +44,9 @@ On first run, macOS will ask for calendar access. Click **Allow**. If you miss i
 
 ## Getting the Audio
 
-The BBC News theme is composed by David Lowe and is copyrighted. You have several legitimate options:
+Use any MP3 or WAV file you like — the tool will play whatever you provide.
 
-- **Purchase** from [Apple Music](https://music.apple.com/gb/album/bbc-news-official-themes/1802238098), Amazon, or other stores
-- **Use any MP3/WAV** you own — the tool plays whatever file you point it to
-- **Record your own dramatic cover** (recommended for maximum authenticity)
-
-Place the file at `audio/theme.mp3` or configure a custom path in `config.yaml`.
+Place your file at `audio/theme.mp3`, or update the path in `config.yaml`.
 
 ## Configuration
 
