@@ -1,8 +1,6 @@
 # Meeting Herald
 
-**Your meetings deserve a proper introduction.**
-
-A macOS daemon that monitors your Apple Calendar and plays the BBC News theme (or any audio) at full dramatic volume before every meeting. Because you're not just joining a standup — you're *broadcasting*.
+A macOS daemon that monitors your Apple Calendar and plays your favourite theme (or any audio) before every meeting.
 
 ![Python](https://img.shields.io/badge/python-3.9+-blue)
 ![macOS](https://img.shields.io/badge/macOS-only-black)
@@ -14,11 +12,8 @@ A macOS daemon that monitors your Apple Calendar and plays the BBC News theme (o
 1. Reads directly from Apple Calendar via macOS EventKit (same data store as Calendar.app)
 2. Sees **all** your calendars — Google, iCloud, Exchange, whatever you've synced
 3. Detects meetings starting in the next N seconds (default: 60)
-4. Plays your chosen audio file at maximum drama
+4. Plays your chosen audio file
 5. Shows a desktop notification with the meeting title
-6. Optionally opens the meeting link (Zoom/Meet/Teams) automatically
-
-**No Google API keys. No OAuth. No cloud dependency. Just your Mac.**
 
 ## Quick Start
 
@@ -44,7 +39,7 @@ On first run, macOS will ask for calendar access. Click **Allow**. If you miss i
 
 ## Getting the Audio
 
-Use any MP3 or WAV file you like — the tool will play whatever you provide.
+Use any MP3 or WAV file you like.
 
 Place your file at `audio/theme.mp3`, or update the path in `config.yaml`.
 
