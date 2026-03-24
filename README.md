@@ -1,4 +1,4 @@
-# Meeting Herald
+# Meeting announcement
 
 A macOS daemon that monitors your Apple Calendar and plays your favourite theme (or any audio) before every meeting.
 
@@ -103,4 +103,4 @@ Because every meeting should feel like breaking news.
 
 ## License
 
-MIT — do whatever you want, just don't blame me when your coworkers start expecting theme music for their standups too.
+MIT
