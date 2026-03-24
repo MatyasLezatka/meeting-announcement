@@ -1,4 +1,4 @@
-# 📺 BBC Meeting Herald
+# Meeting Herald
 
 **Your meetings deserve a proper introduction.**
 
