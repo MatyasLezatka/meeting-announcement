@@ -1,0 +1,25 @@
+# BBC Meeting Herald — Configuration
+# ====================================
+
+# Path to your audio file (MP3, WAV, or OGG)
+audio_file: "audio/theme.mp3"
+
+# How many seconds before a meeting to play the theme
+# 60 = plays 1 minute before start time
+lead_time_seconds: 60
+
+# Volume: 0.0 (silent) to 1.0 (full dramatic blast)
+volume: 1.0
+
+# How often (seconds) to poll calendar for upcoming events
+poll_interval_seconds: 30
+
+# Automatically open the meeting link (Zoom/Meet/Teams) after playing
+auto_open_meeting_link: true
+
+# How many seconds of the audio to play
+# 15s captures the iconic opening; increase for full drama
+play_duration_seconds: 15
+
+# Show a desktop notification alongside the audio
+desktop_notification: true

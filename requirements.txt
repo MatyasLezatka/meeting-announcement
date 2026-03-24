@@ -1,0 +1,5 @@
+pyobjc-core>=10.0
+pyobjc-framework-EventKit>=10.0
+pyobjc-framework-Cocoa>=10.0
+pygame>=2.5.0
+PyYAML>=6.0

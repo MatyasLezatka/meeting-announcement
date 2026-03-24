@@ -1,0 +1,23 @@
+# Audio files (user-supplied, potentially copyrighted)
+audio/*.mp3
+audio/*.wav
+audio/*.ogg
+!audio/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
